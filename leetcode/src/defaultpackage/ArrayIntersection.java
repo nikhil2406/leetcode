@@ -10,7 +10,7 @@ public class ArrayIntersection {
 	public static void main(String[] args) {
 		int[] num1 = {4,9,5,5};
 		int[] num2 = {9,4,9,8,5};
-		int[] ret = intersect(num1,num2);
+		int[] ret = intersect(num1,num2); // some comment here
 		for(int e : ret) {
 			System.out.print(e + ",");
 		}

@@ -17,6 +17,7 @@ public class TwoSum {
 		}
 	}
 
+	// for sorted array only
 	static int[] twoSumForsortedArray(int[] nums, int target) {
 		// use binary search
 		int[] ret = new int[2];
